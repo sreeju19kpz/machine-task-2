@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*default*/
+.default {
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  flex-basis: auto;
   flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: relative;
+  z-index: 0;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+/* position */
+
+.z-ind-1 {
+  z-index: 1;
+}
+.pos-set-abs {
+  position: absolute;
+}
+.pos-fix {
+  position: fixed;
+}
+.left0 {
+  left: 0;
+}
+.right0 {
+  right: 0;
+}
+/* width */
+.max-wid-1280-px {
+  max-width: 1280px;
+}
+.max-wid-150-px {
+  max-width: 150px;
+}
+.wid-150-px {
+  width: 150px;
+}
+.wid-100-p {
+  width: 100%;
+}
+.wid-33-px {
+  width: 33px;
+}
+.wid-22-px {
+  width: 22px;
+}
+
+/* height */
+.hei-150-px {
+  height: 150px;
+}
+.min-hei-100-vh {
+  min-height: 100vh;
+}
+.hei-100-vh {
+    height: 100vh;
+  }
+.height-100-p {
+  height: 100%;
+}
+.hei-22-px {
+  height: 22px;
+}
+/* flex */
+.ali-ite-cnt {
   align-items: center;
+}
+.flex-shr-1 {
+  flex-shrink: 1;
+}
+.justify-con-spc-aro {
+  justify-content: space-around;
+}
+.justify-con-cnt {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.flex-dir-row {
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+/* overflow */
+.over-flw-hid {
+  overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.tra-tra-400ms-eas {
+  transition: translate 400ms ease-in-out;
+}
+.tra-tra-200ms-eas {
+    transition: translate 200ms ease-in-out;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.bac-col-on-hov:hover {
+  background-color: rgba(24, 20, 20, 0.301);
+}
+.pad-10-px {
+  padding: 10px;
+}
+.asp-rat-16-9{
+    aspect-ratio: 16/9;
+}
+.wid-100-vw{
+    width: 100vw;
 }
